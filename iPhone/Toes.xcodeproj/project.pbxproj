@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52667CC217E39F2C00A59A6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52667CC117E39F2C00A59A6F /* Foundation.framework */; };
+		52667CC417E39F2C00A59A6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52667CC317E39F2C00A59A6F /* CoreGraphics.framework */; };
+		52667CC617E39F2C00A59A6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52667CC517E39F2C00A59A6F /* UIKit.framework */; };
+		52667CCC17E39F2C00A59A6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52667CCA17E39F2C00A59A6F /* InfoPlist.strings */; };
+		52667CCE17E39F2C00A59A6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52667CCD17E39F2C00A59A6F /* main.m */; };
+		52667CD217E39F2C00A59A6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52667CD117E39F2C00A59A6F /* AppDelegate.m */; };
+		52667CDD17E39F2C00A59A6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52667CDC17E39F2C00A59A6F /* Images.xcassets */; };
+		52667CE417E39F2C00A59A6F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52667CE317E39F2C00A59A6F /* XCTest.framework */; };
+		52667CE517E39F2C00A59A6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52667CC117E39F2C00A59A6F /* Foundation.framework */; };
+		52667CE617E39F2C00A59A6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52667CC517E39F2C00A59A6F /* UIKit.framework */; };
+		52667CEE17E39F2C00A59A6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52667CEC17E39F2C00A59A6F /* InfoPlist.strings */; };
+		52667CF017E39F2C00A59A6F /* ToesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52667CEF17E39F2C00A59A6F /* ToesTests.m */; };
+		52667CFB17E3A4BF00A59A6F /* ToesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52667CFA17E3A4BF00A59A6F /* ToesViewController.m */; };
+		52667CFD17E3B37400A59A6F /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52667CFC17E3B37400A59A6F /* JavaScriptCore.framework */; };
+		52E6DEA717E4E99700509B9E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52667CD317E39F2C00A59A6F /* Main_iPhone.storyboard */; };
+		52E6DEA917E4E9AA00509B9E /* toes.js in Resources */ = {isa = PBXBuildFile; fileRef = 52E6DEA817E4E9AA00509B9E /* toes.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52667CE717E39F2C00A59A6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52667CB617E39F2C00A59A6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52667CBD17E39F2C00A59A6F;
+			remoteInfo = Toes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52667CBE17E39F2C00A59A6F /* Toes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52667CC117E39F2C00A59A6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52667CC317E39F2C00A59A6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52667CC517E39F2C00A59A6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52667CC917E39F2C00A59A6F /* Toes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Toes-Info.plist"; sourceTree = "<group>"; };
+		52667CCB17E39F2C00A59A6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52667CCD17E39F2C00A59A6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52667CCF17E39F2C00A59A6F /* Toes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Toes-Prefix.pch"; sourceTree = "<group>"; };
+		52667CD017E39F2C00A59A6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52667CD117E39F2C00A59A6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52667CD417E39F2C00A59A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		52667CDC17E39F2C00A59A6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52667CE217E39F2C00A59A6F /* ToesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52667CE317E39F2C00A59A6F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		52667CEB17E39F2C00A59A6F /* ToesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToesTests-Info.plist"; sourceTree = "<group>"; };
+		52667CED17E39F2C00A59A6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52667CEF17E39F2C00A59A6F /* ToesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToesTests.m; sourceTree = "<group>"; };
+		52667CF917E3A4BF00A59A6F /* ToesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToesViewController.h; sourceTree = "<group>"; };
+		52667CFA17E3A4BF00A59A6F /* ToesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToesViewController.m; sourceTree = "<group>"; };
+		52667CFC17E3B37400A59A6F /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		52E6DEA817E4E9AA00509B9E /* toes.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = toes.js; path = ../../clojure/resources/public/toes.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52667CBB17E39F2C00A59A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52667CFD17E3B37400A59A6F /* JavaScriptCore.framework in Frameworks */,
+				52667CC417E39F2C00A59A6F /* CoreGraphics.framework in Frameworks */,
+				52667CC617E39F2C00A59A6F /* UIKit.framework in Frameworks */,
+				52667CC217E39F2C00A59A6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52667CDF17E39F2C00A59A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52667CE417E39F2C00A59A6F /* XCTest.framework in Frameworks */,
+				52667CE617E39F2C00A59A6F /* UIKit.framework in Frameworks */,
+				52667CE517E39F2C00A59A6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52667CB517E39F2C00A59A6F = {
+			isa = PBXGroup;
+			children = (
+				52667CC717E39F2C00A59A6F /* Toes */,
+				52667CE917E39F2C00A59A6F /* ToesTests */,
+				52667CC017E39F2C00A59A6F /* Frameworks */,
+				52667CBF17E39F2C00A59A6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52667CBF17E39F2C00A59A6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52667CBE17E39F2C00A59A6F /* Toes.app */,
+				52667CE217E39F2C00A59A6F /* ToesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52667CC017E39F2C00A59A6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52667CFC17E3B37400A59A6F /* JavaScriptCore.framework */,
+				52667CC117E39F2C00A59A6F /* Foundation.framework */,
+				52667CC317E39F2C00A59A6F /* CoreGraphics.framework */,
+				52667CC517E39F2C00A59A6F /* UIKit.framework */,
+				52667CE317E39F2C00A59A6F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52667CC717E39F2C00A59A6F /* Toes */ = {
+			isa = PBXGroup;
+			children = (
+				52667CD017E39F2C00A59A6F /* AppDelegate.h */,
+				52667CD117E39F2C00A59A6F /* AppDelegate.m */,
+				52667CF917E3A4BF00A59A6F /* ToesViewController.h */,
+				52667CFA17E3A4BF00A59A6F /* ToesViewController.m */,
+				52667CD317E39F2C00A59A6F /* Main_iPhone.storyboard */,
+				52E6DEA817E4E9AA00509B9E /* toes.js */,
+				52667CDC17E39F2C00A59A6F /* Images.xcassets */,
+				52667CC817E39F2C00A59A6F /* Supporting Files */,
+			);
+			path = Toes;
+			sourceTree = "<group>";
+		};
+		52667CC817E39F2C00A59A6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52667CC917E39F2C00A59A6F /* Toes-Info.plist */,
+				52667CCA17E39F2C00A59A6F /* InfoPlist.strings */,
+				52667CCD17E39F2C00A59A6F /* main.m */,
+				52667CCF17E39F2C00A59A6F /* Toes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52667CE917E39F2C00A59A6F /* ToesTests */ = {
+			isa = PBXGroup;
+			children = (
+				52667CEF17E39F2C00A59A6F /* ToesTests.m */,
+				52667CEA17E39F2C00A59A6F /* Supporting Files */,
+			);
+			path = ToesTests;
+			sourceTree = "<group>";
+		};
+		52667CEA17E39F2C00A59A6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52667CEB17E39F2C00A59A6F /* ToesTests-Info.plist */,
+				52667CEC17E39F2C00A59A6F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52667CBD17E39F2C00A59A6F /* Toes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52667CF317E39F2C00A59A6F /* Build configuration list for PBXNativeTarget "Toes" */;
+			buildPhases = (
+				52667CBA17E39F2C00A59A6F /* Sources */,
+				52667CBB17E39F2C00A59A6F /* Frameworks */,
+				52667CBC17E39F2C00A59A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toes;
+			productName = Toes;
+			productReference = 52667CBE17E39F2C00A59A6F /* Toes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52667CE117E39F2C00A59A6F /* ToesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52667CF617E39F2C00A59A6F /* Build configuration list for PBXNativeTarget "ToesTests" */;
+			buildPhases = (
+				52667CDE17E39F2C00A59A6F /* Sources */,
+				52667CDF17E39F2C00A59A6F /* Frameworks */,
+				52667CE017E39F2C00A59A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52667CE817E39F2C00A59A6F /* PBXTargetDependency */,
+			);
+			name = ToesTests;
+			productName = ToesTests;
+			productReference = 52667CE217E39F2C00A59A6F /* ToesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52667CB617E39F2C00A59A6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hans Sjunnesson";
+				TargetAttributes = {
+					52667CE117E39F2C00A59A6F = {
+						TestTargetID = 52667CBD17E39F2C00A59A6F;
+					};
+				};
+			};
+			buildConfigurationList = 52667CB917E39F2C00A59A6F /* Build configuration list for PBXProject "Toes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52667CB517E39F2C00A59A6F;
+			productRefGroup = 52667CBF17E39F2C00A59A6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52667CBD17E39F2C00A59A6F /* Toes */,
+				52667CE117E39F2C00A59A6F /* ToesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52667CBC17E39F2C00A59A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52667CDD17E39F2C00A59A6F /* Images.xcassets in Resources */,
+				52E6DEA917E4E9AA00509B9E /* toes.js in Resources */,
+				52667CCC17E39F2C00A59A6F /* InfoPlist.strings in Resources */,
+				52E6DEA717E4E99700509B9E /* Main_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52667CE017E39F2C00A59A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52667CEE17E39F2C00A59A6F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52667CBA17E39F2C00A59A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52667CFB17E3A4BF00A59A6F /* ToesViewController.m in Sources */,
+				52667CD217E39F2C00A59A6F /* AppDelegate.m in Sources */,
+				52667CCE17E39F2C00A59A6F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52667CDE17E39F2C00A59A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52667CF017E39F2C00A59A6F /* ToesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52667CE817E39F2C00A59A6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52667CBD17E39F2C00A59A6F /* Toes */;
+			targetProxy = 52667CE717E39F2C00A59A6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52667CCA17E39F2C00A59A6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52667CCB17E39F2C00A59A6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52667CD317E39F2C00A59A6F /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52667CD417E39F2C00A59A6F /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		52667CEC17E39F2C00A59A6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52667CED17E39F2C00A59A6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52667CF117E39F2C00A59A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52667CF217E39F2C00A59A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52667CF417E39F2C00A59A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Toes/Toes-Prefix.pch";
+				INFOPLIST_FILE = "Toes/Toes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52667CF517E39F2C00A59A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Toes/Toes-Prefix.pch";
+				INFOPLIST_FILE = "Toes/Toes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52667CF717E39F2C00A59A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Toes.app/Toes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Toes/Toes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ToesTests/ToesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		52667CF817E39F2C00A59A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Toes.app/Toes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Toes/Toes-Prefix.pch";
+				INFOPLIST_FILE = "ToesTests/ToesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52667CB917E39F2C00A59A6F /* Build configuration list for PBXProject "Toes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52667CF117E39F2C00A59A6F /* Debug */,
+				52667CF217E39F2C00A59A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52667CF317E39F2C00A59A6F /* Build configuration list for PBXNativeTarget "Toes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52667CF417E39F2C00A59A6F /* Debug */,
+				52667CF517E39F2C00A59A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52667CF617E39F2C00A59A6F /* Build configuration list for PBXNativeTarget "ToesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52667CF717E39F2C00A59A6F /* Debug */,
+				52667CF817E39F2C00A59A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52667CB617E39F2C00A59A6F /* Project object */;
+}
