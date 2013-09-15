@@ -37,6 +37,10 @@
 <a name="javascript-assembly-language-for-the-web" class="anchor" href="#javascript-assembly-language-for-the-web"><span class="octicon octicon-link"></span></a>Javascript, assembly language for the web</h3>
 
 <p>Javascript is hard. It doesn't seem that way, but there are tons of little nuance and idioms you'll have to be aware of. But Javascript is ubiquitous and powerful - it's in every browser, there's Node.js and Rhino and V8 and Nitro. All of these technologies, which are really powerful and optimised makes Javascript a very attractive target platform for applications.</p>
+
+<p>Running Javascript on iOS before iOS 7 was a hassle. You'd basically have to hide an instance to an UIWebView somewhere and execute Javascript via that one. But that was clunky it didn't access the full acceleration of the Nitro engine.</p>
+
+<p>With iOS 7 the SDK includes the Javascript framework. The iPhone app that's included in the project simply loads <em>toes.js</em>. The app doesn't do any complicated logic, it simply calls the functions in the Javascript.</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/hsjunnesson">hsjunnesson</a></p>
