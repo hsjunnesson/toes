@@ -137,6 +137,7 @@
         
         cell.infoLabel.text = infoString;
         cell.resetGameButton.hidden = !enableNewGameButton;
+        cell.resetGameButton.tintColor = [UIColor whiteColor];
         
         return cell;
     }
